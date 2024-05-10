@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3702BF2BED8DE400A80ED0 /* Wether.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3702BE2BED8DE400A80ED0 /* Wether.swift */; };
 		EF75B1E42BED8C8400312BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75B1E32BED8C8400312BAF /* AppDelegate.swift */; };
 		EF75B1E62BED8C8400312BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75B1E52BED8C8400312BAF /* SceneDelegate.swift */; };
 		EF75B1E82BED8C8400312BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75B1E72BED8C8400312BAF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF3702BE2BED8DE400A80ED0 /* Wether.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wether.swift; sourceTree = "<group>"; };
 		EF75B1E02BED8C8400312BAF /* HW3-JsonParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3-JsonParsing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF75B1E32BED8C8400312BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF75B1E52BED8C8400312BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF3702C02BED8E0600A80ED0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF3702BE2BED8DE400A80ED0 /* Wether.swift */,
+			);
+			name = Models;
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		EF75B1D72BED8C8400312BAF = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +67,40 @@
 		EF75B1E22BED8C8400312BAF /* HW3-JsonParsing */ = {
 			isa = PBXGroup;
 			children = (
-				EF75B1E32BED8C8400312BAF /* AppDelegate.swift */,
-				EF75B1E52BED8C8400312BAF /* SceneDelegate.swift */,
-				EF75B1E72BED8C8400312BAF /* ViewController.swift */,
-				EF75B1E92BED8C8400312BAF /* Main.storyboard */,
+				EF75B1F92BED8CFB00312BAF /* ViewController */,
+				EF3702C02BED8E0600A80ED0 /* Models */,
+				EF75B1F82BED8CCA00312BAF /* Storyboard */,
+				EF75B1F72BED8C9E00312BAF /* App */,
 				EF75B1EC2BED8C8600312BAF /* Assets.xcassets */,
-				EF75B1EE2BED8C8600312BAF /* LaunchScreen.storyboard */,
-				EF75B1F12BED8C8600312BAF /* Info.plist */,
 			);
 			path = "HW3-JsonParsing";
+			sourceTree = "<group>";
+		};
+		EF75B1F72BED8C9E00312BAF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF75B1E32BED8C8400312BAF /* AppDelegate.swift */,
+				EF75B1E52BED8C8400312BAF /* SceneDelegate.swift */,
+				EF75B1F12BED8C8600312BAF /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EF75B1F82BED8CCA00312BAF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EF75B1EE2BED8C8600312BAF /* LaunchScreen.storyboard */,
+				EF75B1E92BED8C8400312BAF /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EF75B1F92BED8CFB00312BAF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF75B1E72BED8C8400312BAF /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF75B1E82BED8C8400312BAF /* ViewController.swift in Sources */,
+				EF3702BF2BED8DE400A80ED0 /* Wether.swift in Sources */,
 				EF75B1E42BED8C8400312BAF /* AppDelegate.swift in Sources */,
 				EF75B1E62BED8C8400312BAF /* SceneDelegate.swift in Sources */,
 			);
@@ -294,12 +331,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ69DYWC4W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HW3-JsonParsing/Info.plist";
+				INFOPLIST_FILE = "HW3-JsonParsing/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +345,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pavel.dolgopolov.HW3-JsonParsing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +364,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ69DYWC4W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HW3-JsonParsing/Info.plist";
+				INFOPLIST_FILE = "HW3-JsonParsing/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +378,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pavel.dolgopolov.HW3-JsonParsing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
