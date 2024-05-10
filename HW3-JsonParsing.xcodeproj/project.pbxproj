@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF3702BF2BED8DE400A80ED0 /* Wether.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3702BE2BED8DE400A80ED0 /* Wether.swift */; };
+		EF3702BF2BED8DE400A80ED0 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3702BE2BED8DE400A80ED0 /* Weather.swift */; };
 		EF75B1E42BED8C8400312BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75B1E32BED8C8400312BAF /* AppDelegate.swift */; };
 		EF75B1E62BED8C8400312BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75B1E52BED8C8400312BAF /* SceneDelegate.swift */; };
 		EF75B1E82BED8C8400312BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75B1E72BED8C8400312BAF /* ViewController.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF3702BE2BED8DE400A80ED0 /* Wether.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wether.swift; sourceTree = "<group>"; };
+		EF3702BE2BED8DE400A80ED0 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		EF75B1E02BED8C8400312BAF /* HW3-JsonParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3-JsonParsing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF75B1E32BED8C8400312BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF75B1E52BED8C8400312BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		EF3702C02BED8E0600A80ED0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EF3702BE2BED8DE400A80ED0 /* Wether.swift */,
+				EF3702BE2BED8DE400A80ED0 /* Weather.swift */,
 			);
 			name = Models;
 			path = Storyboard;
@@ -175,7 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF75B1E82BED8C8400312BAF /* ViewController.swift in Sources */,
-				EF3702BF2BED8DE400A80ED0 /* Wether.swift in Sources */,
+				EF3702BF2BED8DE400A80ED0 /* Weather.swift in Sources */,
 				EF75B1E42BED8C8400312BAF /* AppDelegate.swift in Sources */,
 				EF75B1E62BED8C8400312BAF /* SceneDelegate.swift in Sources */,
 			);
